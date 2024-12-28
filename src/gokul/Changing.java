@@ -1,3 +1,5 @@
+package gokul;
+
 public class Changing
 {
     public static void main(String[]args){
