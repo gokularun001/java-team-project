@@ -1,4 +1,4 @@
-package arun;
+package gokul;
 
 public class Divisible
 {
