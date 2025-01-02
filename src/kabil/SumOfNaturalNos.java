@@ -2,12 +2,12 @@ package kabil;
 
 public class SumOfNaturalNos {
     public static void main (String [] args) {
-        int N = 5;
-        int i = 1;
+        int N = 1;
         int sum = 0;
-        while (i <= N) {
-            System.out.println("the sum of first " + N + " numbers of natural numbers is" + sum);
-
+        while (N <= 10){
+            sum = sum + N;
+            N++;
         }
+        System.out.println("the sum of first 10 natural numbers is " + sum);
     }
 }
