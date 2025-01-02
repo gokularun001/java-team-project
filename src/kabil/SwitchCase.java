@@ -12,7 +12,7 @@ public class SwitchCase {
           case 3:
               System.out.println("gokul"); break;
           case 4:
-              System.out.println("Ajay"); break;
+              System.out.println("Ajaya"); break;
           default:
               System.out.println("invalid Roll No"); break;
       }
