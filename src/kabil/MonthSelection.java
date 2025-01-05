@@ -1,8 +1,11 @@
 package kabil;
+import java.util.Scanner;
 
 public class MonthSelection {
     public static void main(String[] args){
-        int monthNo = 2;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("enter  number from 1 to 2 ");
+        int monthNo = scanner.nextInt();
         switch (monthNo) {
             case 1:
                 System.out.println("jan");break;
