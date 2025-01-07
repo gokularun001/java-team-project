@@ -8,6 +8,7 @@ public class ReverseNumbers {
             int remain = number%10;
 
              reverse = (reverse * 10) + remain;
+
             number = number/10;
         }System.out.println(reverse);
     }
