@@ -16,5 +16,16 @@ public class ArrayPractices {
         for (int i=0;i< name.length;i++) {
             System.out.println(name[i]);
         }
+        int [][] kab= new int [2][2];
+        kab[0][0] = 100;
+        kab[1][0] = 100;
+        kab[0][1] = 100;
+        kab[1][1] = 100;
+        for (int b = 0; b< 2;b++){
+            for (int c = 0;c < 2;c++){
+                System.out.println(kab[b][c]);
+            }
+        }
+
     }
 }
