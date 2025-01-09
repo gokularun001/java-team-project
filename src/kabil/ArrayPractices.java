@@ -7,13 +7,14 @@ public class ArrayPractices {
 
             System.out.println(a[i]);
         }
-        String[] name = new String[2];//array fixed memory
-        name[0] = "kabil";
-        name[1] = "ajay";
-        for (int b = 0; b < name.length; b++) {
-
-            System.out.println(name[b]);
+        String[]name = new String[5];
+        name[0]= "vijay";
+        name[1]= "vijay";
+        name[2]= "kabil";
+        name[3]= "vijay";
+        name[4]= "vijay";
+        for (int i=0;i< name.length;i++) {
+            System.out.println(name[i]);
         }
-
     }
 }
