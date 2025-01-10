@@ -18,14 +18,46 @@ public class ArrayPractices {
         }
         int [][] kab= new int [2][2];
         kab[0][0] = 100;
-        kab[1][0] = 100;
-        kab[0][1] = 100;
-        kab[1][1] = 100;
+        kab[1][0] = 500;
+        kab[0][1] = 800;
+        kab[1][1] = 900;
         for (int b = 0; b< 2;b++){
             for (int c = 0;c < 2;c++){
                 System.out.println(kab[b][c]);
             }
         }
+        int[][] kabi = {
+                {43,45,45},
+                {45,56,78},
+                {24,24,4,}
+        };
+        for (int x = 0;x <3;x++){
+            for (int y = 0;y < 3;y++){
+                System.out.println(kabi[x][y]);
+            }
+        }
+        int[][] l = {
+                {232,224,32},
+                {2303,2323,33},
+                {2523,767,77},
+                {6323,2373,333}
+        }; int max = l[0][0];
+
+        for (int u = 0;u<4;u++){
+            for (int v = 0;v<3;v++){
+
+                if (max<l[u][v]){
+                    max = l[u][v];
+
+                }
+
+            }
+
+
+        }
+        System.out.println(max);
+
+
 
     }
 }
