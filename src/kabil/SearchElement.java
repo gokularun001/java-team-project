@@ -1,18 +1,27 @@
 package kabil;
 
-public class SearchElement {
-    public static void main(String[] args){
-        int a []= {56,77,8};
-        int find = 56;
-        for (int i = 0;i<a.length;i++){
-            if (a[i]==find){
-                find = i;
+import java.util.Scanner;
 
+public class SearchElement {
+    public static void main(String[] args) {
+        int [][] kab={
+                {12,34,56,},
+                {21,43,65},
+                {90,78,65}
+        };
+        Scanner numb = new Scanner(System.in);
+        int num = numb.nextByte();
+
+        for (int i = 0;i<3;i++){
+            for (int j =0;j<3;j++){
+
+                if (num == kab[i][j]){
+
+                }if (kab[i][j]!=-1){
+                    System.out.println("found "+ num);
+                }else System.out.println("nit douf");
 
             }
         }
-        if (find != -1){
-            System.out.println("element is in index: " + find);
-        }else System.out.println("element not found");
     }
 }
