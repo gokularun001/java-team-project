@@ -58,6 +58,20 @@ public class ArrayPractices {
         System.out.println(max);
 
 
+        int[][]kabil={{232,567,676},
+                      {98,765,32},
+                      {0,6,434,},
+                      {11,22,33}};
+        int sum = 0;
+        for (int i =0;i<4;i++){
+            for (int j =0;j<3;j++){
+                sum += kabil[i][j];
+            }
+
+        } System.out.println(sum);
+
+
+
 
     }
 }
