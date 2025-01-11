@@ -23,6 +23,7 @@ public class ArrayPractices1 {
         System.out.println(max);
 
             //search for an element
+
         for(int i =0;i<a.length;i++)
             if (search == a[i]){
 search=i;
@@ -30,7 +31,7 @@ search=i;
 
         if (search!=-1){
             System.out.println("element found: "+search);
-        }else System.out.println("not found");
+    }else System.out.println("not found");
 
 
 
