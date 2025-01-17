@@ -51,7 +51,7 @@ public class MyPraticS {
                     case 12:
                         System.out.println("december");break;
                     default:
-                        System.out.println("not month");
+                        System.out.println("not moth");
                 }
     }
 }
