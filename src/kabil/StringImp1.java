@@ -16,7 +16,10 @@ public class StringImp1 {
 
     public static void main(String[] args) {
         StringImp1 kabil = new StringImp1();
+        kabil.coffee=30;
         kabil.display();
+
+
 
 
     }
