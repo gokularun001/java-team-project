@@ -8,3 +8,5 @@ public class Rectangle
         System.out.println("find area of rectangle is:"+rectangle);
     }
 }
+
+
