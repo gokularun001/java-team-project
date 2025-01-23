@@ -1,7 +1,7 @@
 package ajithk;
 
 public class Polymorphism {
-
+int a ;
     void method() {
         System.out.println("hi guys");
     }
