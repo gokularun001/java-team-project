@@ -16,19 +16,20 @@ public class BasicCalculator {
         int num2 = kabil.nextInt();
         switch (operator){
             case '+' :
-                System.out.println(num1 + num2);
+
+                System.out.println("the answer is "+num1 + num2);
                 System.out.println("thank you");break;
             case '-' :
-                System.out.println(num1 - num2);
+                System.out.println("the answer is "+(num1 - num2));
                 System.out.println("thank you");break;
             case '/' :
-                System.out.println(num1 / num2);
+                System.out.println("the answer is "+num1 / num2);
                 System.out.println("thank you");break;
             case '*' :
-                System.out.println(num1 * num2);
+                System.out.println("the answer is "+num1 * num2);
                 System.out.println("thank you");break;
             default:
-                System.out.println("sorry this operator doesnot exist in my calculator soon i i will upgrate");
+                System.out.println("sorry this operator doesnot exist in my calculator soon i i will upgrade it");
         }
 
     }
