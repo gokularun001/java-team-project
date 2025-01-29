@@ -1,7 +1,8 @@
 package ajithk;
 
 
-public class ForEach {
+public class
+ForEach {
     public static void main(String[] args) {
         int number [] ={12,45,67,89};
 

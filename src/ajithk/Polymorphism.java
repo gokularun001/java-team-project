@@ -7,12 +7,13 @@ int a ;
     }
 
     void method (String ajay){
+
         System.out.println(ajay);
     }
 
     public static void main(String[] args) {
         Polymorphism ajay=new Polymorphism();
-        ajay.method("hi makaley");
+        ajay.method("ajay");
 
     }
 }
