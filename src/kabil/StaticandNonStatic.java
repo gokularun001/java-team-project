@@ -15,5 +15,6 @@ public class StaticandNonStatic {
     public static void main(String[] args) {
         StaticandNonStatic kabil = new StaticandNonStatic();
         System.out.println(kabil.age);
+        System.out.println(kabil.age);
     }
 }

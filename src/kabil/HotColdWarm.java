@@ -1,6 +1,6 @@
 package kabil;
 
-public class HotColdWarm {
+public class HotColdWarm extends GopiAmnt1{
     public static void main(String[] args){
 
         int degree = 45;
