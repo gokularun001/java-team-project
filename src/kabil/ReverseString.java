@@ -9,6 +9,7 @@ public class ReverseString {
             reverse += kabi.charAt(i);
         }
         System.out.println(reverse);
-        System.out.println(a);
+        System.out.println(kabi.split("o"));
+        System.out.println(kabi.length());
     }
 }

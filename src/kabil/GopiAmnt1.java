@@ -1,9 +1,15 @@
 package kabil;
 
-public class GopiAmnt1 {
+import gokul.Average;
+
+public class GopiAmnt1 extends Average{
     public static void main(String[] args) {
         String[] fruits = {"apple", "orange", "banana", "guava"};
         String search = "banana";
+
+        Average avgob = new Average();
+
+
         int num;
         int not = 0;
         for (int i = 0; i <= 2; i++) {

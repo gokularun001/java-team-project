@@ -2,6 +2,7 @@ package kabil;
 
 public class ArrayPractices {
     public static void main(String[] args) {
+
         int[] a = {554574, 200, 300, 400}; //memory extends according to the value we give
         for (int i = 0; i <= a.length - 1; i++) {
 
