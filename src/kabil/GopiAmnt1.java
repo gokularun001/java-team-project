@@ -5,7 +5,7 @@ import gokul.Average;
 public class GopiAmnt1 extends Average{
     public static void main(String[] args) {
         String[] fruits = {"apple", "orange", "banana", "guava"};
-        String search = "banana";
+        String search = "bananaa";
 
         Average avgob = new Average();
 

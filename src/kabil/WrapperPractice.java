@@ -13,6 +13,9 @@ public class WrapperPractice {
 
         System.out.println(String.valueOf(s) + String.valueOf(s1));
 
+        String ab = "12344";
+        System.out.println(Integer.parseInt(ab));
+
     }
 
 }

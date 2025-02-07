@@ -34,6 +34,11 @@ public class Pract implements Lion {
     }
 
     public static void main(String args[]) {
+        Tiger t  = new Pract();
+        t.dance(9);
+        t.display();
+        Tiger.print();
+        System.out.println(Tiger.a);
         Pract p = new Pract();
         p.display();
         Tiger.print();

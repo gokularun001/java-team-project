@@ -14,7 +14,7 @@ public class ExceptionPrac {
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+            System.out.println(e);
         }
         System.out.println("heloooo");
         try {
